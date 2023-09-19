@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: darkslategrey;
+    font-family: serif;
+    line-height: 24px;
+}
+
+.container {
+    border: 10px solid black;
+    margin: 100px 200px;
+    padding: 100px;
+}
+
+
+/* Heading */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    width: 12vw;
+    margin: 20px 0px;
+    border-radius: 10%;
+}
+
+h1 {
+    color:#2F4F4F;
+   font-size: 50px;
+   margin-bottom: 25px;
+  }
+
+.header-content {
+    max-width: 59%;
+}
+
+/* Common class*/
+.header-common{
+    margin:15px 0px;
+}
+
+/*Contact Links */
+.Contact-links{
+    margin-bottom: 5px;
+    }
+
+.header-paragraph{
+    margin-top:15px;
+    text-align: justify;
+  }
+
+  
+/* Detail div*/
+.Details{
+   display: flex;
+   justify-content: space-between;
+}
+
+/* Educational div*/
+.education{
+    max-width:50%;
+}
+
+.education-list {
+    list-style-type: disc;
+}
+   ul{
+    list-style-type: none;
+   }
+
+ul ul {
+    margin-left: 20px; 
+}
+
+/* Internships */
+.Internships{
+    margin-left: 174px;    
+}
+h2, .company{
+    color:#000000;
+}
+.company{
+    font-style: italic;
+}
+h4{
+    font-size: 20px;
+}
+.position{
+    margin: 10px 0px;
+    color:#191970;
+}
+.links-href{
+    font-size: 20px;
+    color:#1E90FF ;
+}
+
+
+
+.Links{
+    margin-top: 40px;
+}
